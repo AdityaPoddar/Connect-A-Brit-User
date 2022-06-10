@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/bgcolor"
+
+    tools:context=".UI.User.LoginActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/avatar">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Login Here"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginBottom="5dp">-->
+<!--        -->
+<!--    </TextView>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:backgroundTint="@color/white"
+        android:layout_margin="20dp"
+        >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:background="@color/white"
+        android:textColor="@color/bgcolor"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/universityEmail">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:background="@color/white"
+        android:textColor="@color/bgcolor"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/password">
+
+
+    </EditText>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textStyle="bold"
+        android:id="@+id/loginBtn"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/black"
+        android:padding="10dp"
+        app:cornerRadius="40dp"
+        >
+
+    </com.google.android.material.button.MaterialButton>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dont have an Account?"
+            android:textColor="@color/white"
+
+            android:textSize="19dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register Now"
+            android:textColor="@color/white"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/registerNowBtn"
+            android:textStyle="bold"
+            android:textSize="19dp">
+
+        </TextView>
+    </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

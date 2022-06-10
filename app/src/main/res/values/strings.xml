@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Connect-A-Brit User</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="aboutBritish">Founded in 2011, The British College offers world-class education for students in Nepal who are aspiring to gain internationally recognised qualifications from their two partner British Universities, the University of the West of England (UWE) and Leeds Beckett University (LBU)In this regard, we have been successful in establishing a distinctive identity as the pioneering global college in Nepal and offer reputed UK degrees and courses which are relevant to the current job market, and enhance the employability of each and every student</string>
+    <string name="aboutAditya">I am currently pursuing Bsc IT in The British College, and almost at the virtue of completing it.</string>
+    <string name="sportClub">A Sport Club is defined as a registered student organization that exists to promote and develop interest in a particular sport or physical activity. A clubs focus may be recreational, instructional, competitive, or a combination of these types of activities based on its constitution.</string>
+    <string name="dramaClub">Drama Club is designed for students interested in learning more about the aspects of theater. This includes learning stage terminology, working on acting skills, set building, and costumes/makeup design. Drama Club is open to all students. To promote communication skills, teamwork, socialize and self confidence.</string>
+    <string name="leaderClub">Leadership is the act of guiding a team or individual to achieve a certain goal through direction and motivation. Leaders encourage others to take the actions they need to succeed. To be a great leader, it is necessary to learn and cultivate the skills it takes to be effective.</string>
+    <string name="businessClub">Being a part of a business club not only connects you to other like-minded business owners but can also help smaller entrepreneurs gain access to a lifestyle they may not be able to ordinarily afford yet</string>
+
+</resources>
+
+
+
+

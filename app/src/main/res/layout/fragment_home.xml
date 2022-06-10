@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".UI.Home.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <com.denzcoskun.imageslider.ImageSlider
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:id="@+id/slider"
+                    app:iss_auto_cycle="true"
+
+                    app:iss_delay="0"
+                    app:iss_period="1000"
+                    app:iss_corner_radius="15">
+
+                </com.denzcoskun.imageslider.ImageSlider>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_gravity="center"
+                    android:text="The British College"
+                    android:textColor="@color/bgcolor"
+                    android:textSize="@dimen/title_size"
+                    android:fontFamily="monospace">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:lineHeight="25dp"
+
+                    android:padding="15dp"
+                    android:text="@string/aboutBritish"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size">
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/text_background"
+                    android:layout_marginTop="10dp"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Courses"
+
+                            android:textSize="@dimen/title_sizeless"
+                            android:fontFamily="monospace">
+
+                        </TextView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:background="@color/bgcolor"
+                                android:layout_marginBottom="10dp"
+                                android:layout_gravity="center_horizontal"
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+
+                                    android:text="BSc IT "
+
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/title_sizeless"
+                                    android:fontFamily="monospace"
+                                    android:padding="20dp">
+
+                                </TextView>
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/white">
+
+                                </View>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+
+                                    android:text="BBA  "
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/title_sizeless"
+                                    android:fontFamily="monospace"
+                                    android:padding="20dp">
+
+                                </TextView>
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/white">
+
+                                </View>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Hospitality Business  "
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/title_sizeless"
+                                    android:fontFamily="monospace"
+                                    android:padding="20dp">
+
+                                </TextView>
+
+
+
+                            </LinearLayout>
+
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center"
+                        android:text="Contact"
+                        android:textColor="@color/bgcolor"
+                        android:textSize="@dimen/title_size"
+                        android:fontFamily="monospace">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:lineHeight="25dp"
+                        android:padding="10dp"
+                        android:text="The British College"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size">
+
+                    </TextView><TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:lineHeight="25dp"
+
+                        android:padding="10dp"
+                        android:text="Trade Tower, Thapathali , Kathmandu, Nepal"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size">
+
+                    </TextView>
+                    
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:src="@drawable/tbcmap"
+                        android:id="@+id/map"
+
+                        android:scaleType="centerCrop">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+</FrameLayout>

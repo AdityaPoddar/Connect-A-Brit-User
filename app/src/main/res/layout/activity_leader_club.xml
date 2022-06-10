@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_send"
+    android:backgroundTint="@color/purple"
+
+    android:layout_gravity="center"
+
+    android:orientation="vertical"
+
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/ic_website"
+        android:backgroundTint="@color/purple"
+
+        android:layout_margin="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LeaderShip Club"
+            android:textColor="@color/purple"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+        </TextView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="100dp"
+            android:layout_marginTop="40dp"
+
+            android:backgroundTint="@color/text_background"
+
+            app:cardCornerRadius="30dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/leaderClub"
+                android:textColor="@color/purple"
+                android:padding="40dp"
+
+                android:textSize="20dp"
+
+                android:gravity="center">
+
+            </TextView>
+
+
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            app:cornerRadius="50dp"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/text_background"
+            android:id="@+id/registerClub"
+            android:textColor="@color/purple"
+            android:text="Register">
+
+        </com.google.android.material.button.MaterialButton>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bgcolor"
+    tools:context=".UI.User.RegisterActivity">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register Here"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginBottom="5dp">
+
+
+        </TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/white"
+        android:layout_marginTop="4dp">
+
+    </View>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="University ID"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:inputType="number"
+        android:background="@color/white"
+        android:textColor="@color/bgcolor"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/universityId">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="FullName"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:inputType="text"
+        android:background="@color/white"
+        android:textColor="@color/bgcolor"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/registerName">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Email"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:background="@color/white"
+        android:textColor="@color/bgcolor"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/registerEmail">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Year/Final"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:inputType="text"
+        android:background="@color/white"
+        android:textColor="@color/bgcolor"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/registerYear">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Department"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:inputType="text"
+        android:background="@color/white"
+        android:textColor="@color/bgcolor"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/registerDepartment">
+
+    </EditText>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:background="@color/white"
+        android:textColor="@color/bgcolor"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:id="@+id/registerPassword">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:background="@color/white"
+        android:textColor="@color/bgcolor"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:id="@+id/registerConPassword">
+
+    </EditText>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textStyle="bold"
+        android:id="@+id/registerBtn"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/black"
+        android:padding="10dp"
+        app:cornerRadius="20dp"
+        >
+
+    </com.google.android.material.button.MaterialButton>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an Account?"
+            android:textColor="@color/white"
+
+            android:textSize="19dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login Now"
+            android:textColor="@color/white"
+            android:layout_marginLeft="2dp"
+            android:id="@+id/loginNowBtn"
+            android:textStyle="bold"
+            android:textSize="19dp">
+
+        </TextView>
+    </LinearLayout>
+        </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
